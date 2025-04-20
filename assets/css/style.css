@@ -1,0 +1,105 @@
+:root {
+    --clr-bg: #000000;
+    --clr-text: #ffffff;
+    --clr-gray: #aaaaaa;
+    --clr-border: #333333;
+    --clr-shadow: rgba(255, 255, 255, 0.05);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--clr-bg);
+    color: var(--clr-text);
+    line-height: 1.6;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--clr-text) !important;
+}
+
+.navbar-toggler {
+    border-color: white;
+  }
+  
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+
+.nav-link {
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--clr-gray) !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--clr-text) !important;
+}
+
+.main-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--clr-text);
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 576px) {
+    .main-header {
+        font-size: 4rem;
+    }
+}
+
+.text-content {
+    font-size: 0.9375rem;
+    color: var(--clr-gray);
+    letter-spacing: 0.02rem;
+}
+
+.section-header {
+    font-weight: 600;
+    color: var(--clr-text);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.my-photo {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5rem;
+    box-shadow: 0 1rem 2rem var(--clr-shadow);
+    filter: grayscale(100%);
+    transition: transform 0.3s ease, filter 0.3s ease;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+
+.my-photo:hover {
+    transform: scale(1.02);
+    filter: grayscale(0%);
+}
+
+.card {
+    background-color: #111111;
+    color: var(--clr-text);
+    border: 1px solid var(--clr-border);
+    box-shadow: 0 0.5rem 1rem var(--clr-shadow);
+    border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1.5rem 2rem var(--clr-shadow);
+}
+
+section {
+    scroll-margin-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
