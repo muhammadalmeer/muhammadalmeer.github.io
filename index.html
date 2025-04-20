@@ -11,9 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
@@ -21,20 +18,24 @@
   </head>
 
   <body
-    class="pt-lg-0 pt-5"
-    data-bs-spy="scroll"
-    data-bs-target="#navbar"
-    data-bs-offset="64"
-    style="background-color: #DFDFDE;"
+  class="pt-lg-0 pt-5 text-white"
+  data-bs-spy="scroll"
+  data-bs-target="#navbar"
+  data-bs-offset="64"
+  style="background-color: #000000;"
+>
+  <!-- Navbar -->
+  <nav
+    id="navbar"
+    class="navbar navbar-expand-lg fixed-top"
+    style="
+      background-color: #000000;
+      border-bottom: 1px solid #333333;
+    "
   >
-    <!-- Navbar -->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg navbar-light fixed-top"
-      style="background-color: #676FA3;"
-    >
+
       <div class="container">
-        <a class="navbar-brand" href="">Muhammad Almer</a>
+        <a class="navbar-brand" href="">Portofolio</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -71,7 +72,7 @@
               class="main-header"
               data-aos="fade-right"
               data-aos-offset="200"
-              data-aos-duration="2000"
+              data-aos-duration="200"
             >
               Welcome! I Am
               <br />
@@ -79,7 +80,7 @@
                 class="text-primary"
                 data-aos="fade-right"
                 data-aos-offset="300"
-                data-aos-duration="2000"
+                data-aos-duration="1000"
                 data-aos-delay="200"
                 >Almer</span
               >
@@ -87,24 +88,28 @@
             <p
               class="my-4 text-content"
               data-aos="fade-right"
-              data-aos-offset="400"
+              data-aos-offset="300"
               data-aos-duration="2000"
             >
-            I am a student of Lhokseumawe Polytechnic majoring in Informatics Engineering
+            I'm an Informatics Engineering graduate with a passion for creating impactful technology solutions. I have practical experience in IT support, data analysis, networking, and UI/UX design. I enjoy turning complex problems into simple, user-friendly solutions—whether it's deploying systems, mapping data, or designing seamless interfaces.
             </p>
             <a
-              class="btn btn-primary btn-lg shadow-lg"
-              data-aos="fade-right"
-              data-aos-offset="400"
-              data-aos-duration="2000"
-              >About Me</a
-            >
+            href="assets/img/projects/cv_almer.pdf"
+            target="_blank"
+            class="btn btn-primary btn-lg shadow-lg"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-duration="2000"
+          >
+            About Me
+          </a>
+          
           </div>
           <div class="col-lg-5 order-lg-2 order-1" data-tilt="">
             <img
               class="my-photo"
               height="500"
-              src="./assets/img/myphoto.jpg"
+              src="./assets/img/1.jpg"
               alt="Almer"
               data-aos="zoom-in-down"
               data-aos-duration="19000"
@@ -120,7 +125,7 @@
         <h2
           class="section-header text-center"
           data-aos="flip-left"
-          data-aos-offset="500"
+          data-aos-offset="300"
           data-aos-duration="4000"
         >
           Project
@@ -128,31 +133,30 @@
         <p
           class="text-center mb-4 text-content"
           data-aos="flip-right"
-          data-aos-offset="500"
+          data-aos-offset="300"
         >
-          - Projects that I have made -
+          - My Projects -
         </p>
         <div class="row gy-4">
           <!-- Project 1 -->
           <div
             class="col-lg-4 col-sm-6 col-12"
             data-aos="fade-up-right"
-            data-aos-offset="500"
+            data-aos-offset="300"
           >
             <div class="card h-100">
               <div class="ratio ratio-16x9">
-                <img src="/assets/img/projects/1.jpg" class="card-img-top" />
+                <img src="/assets/img/projects/analisis.png" class="card-img-top" />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold">HTML CSS Projects</h5>
+                <h5 class="card-title fw-bold">Website Analisis Sentimen Review Pengguna Steam</h5>
                 <p class="card-text text-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Klasifikasi sentimen review Steam menggunakan Naive Bayes untuk mengidentifikasi opini positif atau negatif secara otomatis.
                 </p>
               </div>
-              <div class="card-footer bg-white">
-                <a href="#" class="btn btn-primary">Demo</a>
-                <a href="#" class="btn btn-secondary">Github</a>
+              <div class="card-footer bg-dark">
+                <!-- <a href="#" class="btn btn-primary">Demo</a> -->
+                <a href="https://github.com/Almer20/WebApp-Sentiment" class="btn btn-primary">Github</a>
               </div>
             </div>
           </div>
@@ -160,22 +164,21 @@
           <div
             class="col-lg-4 col-sm-6 col-12"
             data-aos="fade-up-left"
-            data-aos-offset="500"
+            data-aos-offset="300"
           >
-            <div class="card h-100">
+            <div class="card h-1000">
               <div class="ratio ratio-16x9">
-                <img src="/assets/img/projects/2.jpg" class="card-img-top" />
+                <img src="/assets/img/projects/sipaten.png" class="card-img-top" />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold">JavaScript Projects</h5>
+                <h5 class="card-title fw-bold">Aplikasi SIPATEN PLN
+                </h5>
                 <p class="card-text text-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  This project focuses on creating a web and mobile application called SIPATEN (Sistem Informasi Pelayanan Tenaga Listrik) for PLN (Perusahaan Listrik Negara), utilizing the Laravel framework for the backend and developing a custom API to enable communication between the web platform and the mobile app.
                 </p>
               </div>
-              <div class="card-footer bg-white">
-                <a href="#" class="btn btn-primary">Demo</a>
-                <a href="#" class="btn btn-secondary">Github</a>
+              <div class="card-footer bg-dark">
+                <a href="https://github.com/MuhammadSadiqin/sipaten-pln" class="btn btn-primary">Github</a>
               </div>
             </div>
           </div>
@@ -183,22 +186,21 @@
           <div
             class="col-lg-4 col-sm-6 col-12"
             data-aos="fade-up-right"
-            data-aos-offset="500"
+            data-aos-offset="300"
           >
             <div class="card h-100">
               <div class="ratio ratio-16x9">
-                <img src="/assets/img/projects/3.jpg" class="card-img-top" />
+                <img src="/assets/img/projects/absensi.png" class="card-img-top" />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold">Laravel Projects</h5>
+                <h5 class="card-title fw-bold">Design UI/UX Aplikasi absensi STMIK</h5>
                 <p class="card-text text-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Designed a mobile attendance application for university students and lecturers. The app includes features such as QR code scanning, attendance history, and role-based login. Focused on creating a simple and intuitive user interface using Figma.
                 </p>
               </div>
-              <div class="card-footer bg-white">
-                <a href="#" class="btn btn-primary">Demo</a>
-                <a href="#" class="btn btn-secondary">Github</a>
+              <div class="card-footer bg-dark">
+                <a href="https://www.figma.com/proto/JrOn4soFnrdPyyPIc7B5PH/Aplikasi-Absensi-STMIK?node-id=0-1&t=wUoDbPITe0n7toUP-1" class="btn btn-primary">Prototype</a>
+            
               </div>
             </div>
           </div>
@@ -206,22 +208,21 @@
           <div
             class="col-lg-4 col-sm-6 col-12"
             data-aos="fade-up-left"
-            data-aos-offset="500"
+            data-aos-offset="300"
           >
             <div class="card h-100">
               <div class="ratio ratio-16x9">
-                <img src="/assets/img/projects/4.jpg" class="card-img-top" />
+                <img src="/assets/img/projects/toko.png" class="card-img-top" />
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold">PHP Projects</h5>
+                <h5 class="card-title fw-bold">Design UI/UX Aplikasi Toko
+                </h5>
                 <p class="card-text text-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Created a clean and modern mobile UI design for an online store application. The design includes product listing, product detail, shopping cart, and checkout screens. Built using Figma with a user-centered design approach.
                 </p>
               </div>
-              <div class="card-footer bg-white">
-                <a href="#" class="btn btn-primary">Demo</a>
-                <a href="#" class="btn btn-secondary">Github</a>
+              <div class="card-footer bg-dark">
+                <a href="https://www.figma.com/proto/u8WsdgBLAM0DQPcvHRLlpK/App-Toko?node-id=1-5&t=iEQidvcRTVm52o79-1&starting-point-node-id=1%3A5" class="btn btn-primary">Prototype</a>
               </div>
             </div>
           </div>
@@ -235,86 +236,116 @@
         <h2
           class="section-header text-center"
           data-aos="flip-down"
-          data-aos-offset="500"
+          data-aos-offset="300"
         >
-          Gallery
+          Certificates
         </h2>
         <p
           class="text-center mb-4 text-content"
           data-aos="flip-up"
-          data-aos-offset="500"
+          data-aos-offset="300"
         >
           - My achievements -
         </p>
       
         <!-- Modal -->
-        <div class="modal fade" id="modalgambar1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">HTML Certificate from Sololearn</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body" data-tilt="">
-                <img src="./assets/img/galery/1.jpg" class="card-img-top">
-              </div>
-              <div class="modal-footer">
-                <a href="https://www.sololearn.com/Certificate/1014-23306716/jpg/" class="link-primary">Certificate Link</a>
-              </div>
-            </div>
-          </div>
-        </div>
+ <!-- MODAL 1 -->
+<div class="modal fade" id="modalgambar1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark text-white border-secondary">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="exampleModalLabel">HTML Certificate from Sololearn</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" data-tilt>
+        <img src="./assets/img/galery/1.jpg" class="card-img-top">
+      </div>
+      <div class="modal-footer border-0">
+        <a href="https://www.sololearn.com/Certificate/1014-23306716/jpg/" class="btn btn-outline-light">Certificate Link</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-        <div class="modal fade" id="modalgambar2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- MODAL 2 -->
+<div class="modal fade" id="modalgambar2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark text-white border-secondary">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="exampleModalLabel">PHP Certificate from Sololearn</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./assets/img/galery/2.jpg" class="card-img-top">
+      </div>
+      <div class="modal-footer border-0">
+        <a href="https://www.sololearn.com/Certificate/1059-23306716/jpg/" class="btn btn-outline-light">Certificate Link</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL 3 -->
+<div class="modal fade" id="modalgambar3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark text-white border-secondary">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="exampleModalLabel">JavaScript Certificate from Sololearn</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./assets/img/galery/3.jpg" class="card-img-top">
+      </div>
+      <div class="modal-footer border-0">
+        <a href="https://www.sololearn.com/certificates/course/en/23306716/1024/landscape/png" class="btn btn-outline-light">Certificate Link</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL 4 -->
+<div class="modal fade" id="modalgambar4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-dark text-white border-secondary">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="exampleModalLabel">HTML & CSS Certificate from Codepolitan</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./assets/img/galery/4.jpg" class="card-img-top">
+      </div>
+      <div class="modal-footer border-0">
+        <a href="https://www.codepolitan.com/c/YSVD4ID" class="btn btn-outline-light">Certificate Link</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        <div class="modal fade" id="modalgambar5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">PHP Certificate from Sololearn</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-content bg-dark text-white border-secondary">
+              <div class="modal-header border-0">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  AWS Cloud Quest: Cloud Practitioner
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <img src="./assets/img/galery/2.jpg" class="card-img-top">
+                <img src="./assets/img/galery/aws.png" class="card-img-top" />
               </div>
-              <div class="modal-footer">
-                <a href="https://www.sololearn.com/Certificate/1059-23306716/jpg/" class="link-primary">Certificate Link</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="modalgambar3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">JavaScript Certificate from Sololearn</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="./assets/img/galery/3.jpg" class="card-img-top">
-              </div>
-              <div class="modal-footer">
-                <a href="https://www.sololearn.com/certificates/course/en/23306716/1024/landscape/png" class="link-primary">Certificate Link</a>
+              <div class="modal-footer border-0">
+                <a
+                  href="https://www.credly.com/badges/b41ff262-5980-4337-a964-262142fbd670/public_url"
+                  class="btn btn-outline-light"
+                >
+                  Certificate Link
+                </a>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="modal fade" id="modalgambar4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">HTML & CSS Certificate from Codepolitan</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="./assets/img/galery/4.jpg" class="card-img-top">
-              </div>
-              <div class="modal-footer">
-                <a href="https://www.codepolitan.com/c/YSVD4ID" class="link-primary">Certificate Link</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
 
 
@@ -322,58 +353,138 @@
         <div class="row row-cols-2 row-cols-md-2 g-4">
             <!-- gambar1 -->
           <div class="col">
-            <div class="card" data-aos="flip-left"  data-aos-offset="600">
+            <div class="card" data-aos="flip-left"  data-aos-offset="400">
               <img src="./assets/img/galery/1.jpg" class="card-img-top" >
               <div class="card-body">
                 <h5 class="card-title">HTML Certificate</h5>
               </div>
-              <div class="card-footer bg-white">
+              <div class="card-footer bg-dark">
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalgambar1">View</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalgambar1">View</button>
             </div>
             </div>
           </div>
             <!-- gambar2 -->
-          <div class="col">
-            <div class="card" data-aos="flip-left"  data-aos-offset="600">
+            <div class="col">
+            <div class="card" data-aos="flip-left"  data-aos-offset="400">
               <img src="./assets/img/galery/2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">PHP Certificate</h5>
               </div>
-              <div class="card-footer bg-white">
+              <div class="card-footer bg-dark">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalgambar2">View</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalgambar2">View</button>
               </div>
             </div>
           </div>
             <!-- gambar3 -->
-          <div class="col">
+            <div class="col certificate-card d-none">
             <div class="card" data-aos="flip-left"  data-aos-offset="300">
               <img src="./assets/img/galery/3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">JavaScript Certificate</h5>
               </div>
-              <div class="card-footer bg-white">
+              <div class="card-footer bg-dark">
                  <!-- Button trigger modal -->
-                 <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalgambar3">View</button>
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalgambar3">View</button>
               </div>
             </div>
           </div>
           <!-- gambar4 -->
-          <div class="col">
+          <div class="col certificate-card d-none">
             <div class="card" data-aos="flip-left"  data-aos-offset="300">
               <img src="./assets/img/galery/4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">HTML & CSS Certificate</h5>
               </div>
-              <div class="card-footer bg-white">
+              <div class="card-footer bg-dark">
                <!-- Button trigger modal -->
-               <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalgambar4">View</button>
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalgambar4">View</button>
               </div>
             </div>
           </div>
+          <!-- Gambar 5 -->
+          <div class="col certificate-card d-none">
+            <div class="card" data-aos="flip-left"  data-aos-offset="300">
+              <img src="./assets/img/galery/aws.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                  AWS Cloud Quest: Cloud Practitioner</h5>
+              </div>
+              <div class="card-footer bg-dark">
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalgambar5">View</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gambar 6 -->
+          <div class="col certificate-card d-none">
+            <div class="card" data-aos="flip-left"  data-aos-offset="300">
+              <img src="./assets/img/galery/py.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Python Fundamental for Data Science</h5>
+              </div>
+              <div class="card-footer bg-dark">
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalgambar5">View</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gambar 7 -->
+          <div class="col certificate-card d-none">
+            <div class="card" data-aos="flip-left"  data-aos-offset="300">
+              <img src="./assets/img/galery/r.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                  R Fundamental for Data Science</h5>
+              </div>
+              <div class="card-footer bg-dark">
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalgambar5">View</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gambar 8 -->
+          <div class="col certificate-card d-none">
+            <div class="card" data-aos="flip-left"  data-aos-offset="300">
+              <img src="./assets/img/galery/sql.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                  SQL Fundamental for Data Science</h5>
+              </div>
+              <div class="card-footer bg-dark">
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalgambar5">View</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gambar 9 -->
+          <div class="col certificate-card d-none">
+            <div class="card" data-aos="flip-left"  data-aos-offset="300">
+              <img src="./assets/img/galery/dqlab.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                 Online bootcamp DQLab</h5>
+              </div>
+              <div class="card-footer bg-dark">
+               <!-- Button trigger modal -->
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalgambar5">View</button>
+              </div>
+            </div>
+          </div>
+
         </div>
 
+        <!-- Load More Button -->
+<div class="text-center mt-4">
+  <button id="loadMoreBtn" class="btn btn-outline-light">Load More</button>
+  
+</div>
           <!-- <div class="col-md-4 col-6">
             <div class="ratio ratio-1x1" >
               <img src="./assets/img/galery/1.jpg" alt="" />
@@ -408,74 +519,89 @@
       </div>
     </section> --> 
 
-    <!-- Contact -->
-    <section class="my-5" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h2
-              class="section-header text-md-start text-center"
-              data-aos="fade-right"
-              data-aos-offset="200"
-            >
-              Contact Me
-            </h2>
-            <p
-              class="text-content text-md-start text-center"
-              data-aos="fade-right"
-              data-aos-offset="200"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div class="col-md-8">
-            <form action="" data-aos="fade-right" data-aos-offset="200">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="mb-3">
-                    <label for="name" class="form-label fw-bold">Name :</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="name"
-                      autocomplete="off"
-                    />
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="mb-3">
-                    <label for="email" class="form-label fw-bold"
-                      >Email :</label
-                    >
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="email"
-                      autocomplete="off"
-                    />
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="message" class="form-label fw-bold"
-                    >Message :</label
-                  >
-                  <textarea
-                    class="form-control"
-                    id="message"
-                    rows="6"
-                    autocomplete="off"
-                  ></textarea>
-                </div>
-              </div>
-              <button class="btn btn-primary">Send</button>
-            </form>
-          </div>
-        </div>
+  <!-- Contact -->
+<section class="my-5" id="contact" style="background-color: #000; color: #fff;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2
+          class="section-header text-md-start text-center"
+          data-aos="fade-right"
+          data-aos-offset="200"
+        >
+          Contact Me
+        </h2>
+        <p
+          class="text-content text-md-start text-center text-secondary"
+          data-aos="fade-right"
+          data-aos-offset="200"
+        >
+          Feel free to reach out for collaborations or just a friendly hello!
+        </p>
       </div>
-    </section>
+      <div class="col-md-8">
+        <form action="" data-aos="fade-right" data-aos-offset="200">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="mb-3">
+                <label for="name" class="form-label fw-bold text-white">Name:</label>
+                <input
+                  type="text"
+                  class="form-control bg-dark text-white border-secondary"
+                  id="name"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold text-white">Email:</label>
+                <input
+                  type="email"
+                  class="form-control bg-dark text-white border-secondary"
+                  id="email"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label fw-bold text-white">Message:</label>
+              <textarea
+                class="form-control bg-dark text-white border-secondary"
+                id="message"
+                rows="6"
+                autocomplete="off"
+              ></textarea>
+            </div>
+          </div>
+          <button class="btn btn-outline-light">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <footer class="text-content text-center py-3 border-top">Made by me</footer>
+<!-- Footer -->
+<footer class="text-center text-light py-4" style="background-color: #111;">
+  <small>© 2025 Almer</small>
+</footer>
+
+<script>
+  document.getElementById("loadMoreBtn").addEventListener("click", function () {
+    const hiddenCards = document.querySelectorAll(".certificate-card.d-none");
+    const cardsToShow = 7; // jumlah card yang ingin ditampilkan per klik
+
+    for (let i = 0; i < cardsToShow && i < hiddenCards.length; i++) {
+      hiddenCards[i].classList.remove("d-none");
+    }
+
+    // Sembunyikan tombol jika semua sudah tampil
+    if (document.querySelectorAll(".certificate-card.d-none").length === 0) {
+      this.style.display = "none";
+    }
+  });
+</script>
+
     <script type="text/javascript" src="assets/js/vanilla-tilt.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
